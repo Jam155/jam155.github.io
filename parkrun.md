@@ -10,7 +10,7 @@ I got involved in doing my local Hartlepool Parkrun and try to run it on a regul
 
 <table>
     <thead>
-        <td>Run Number</td>
+        <td></td>
         <td>Date</td>
         <td>Time</td>
         <td>Position</td>
@@ -28,9 +28,3 @@ I got involved in doing my local Hartlepool Parkrun and try to run it on a regul
         {% endfor %}
     </tbody>
 </table>
-
-{% for run in site.runs %}
-  <h2>{{ run.position }}</h2>
-  <p>{{ run.time }}</p>
-  <p>{{ run.pb }}</p>
-{% endfor %}
