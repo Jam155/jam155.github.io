@@ -20,7 +20,7 @@ I got involved in doing my local Hartlepool Parkrun and try to run it on a regul
         {% for run in site.runs %}
         <tr>
             <td>{{ run.number }}</td>
-            <td>{{ run.run_date }}</td>
+            <td>{{ run.date |  date: "%d/%m/%Y" }}</td>
             <td>{{ run.time }}</td>
             <td>{{ run.position }}</td>
             <td>{{ run.pb }}</td>
