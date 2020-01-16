@@ -19,9 +19,20 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
+$bold: 700;
+$medium: 500;
+$regular: 400;
+$light: 300;
+
+$heading: normal $bold 2em "Ubuntu", Arial, serif;
+$tagline: normal $bold 1.5em "Ubuntu", Arial, serif;
+$nav: normal $light 1.5em "Ubuntu", Arial, serif;
+$content: normal $regular 1em "Ubuntu", Arial, sans-serif;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
   }
 }
+

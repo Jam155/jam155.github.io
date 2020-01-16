@@ -14,12 +14,12 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 14px;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: $content;
   color: $darkGray;
 }
 
@@ -31,9 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font: $heading;
   color: $darkerGray;
-  font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -194,16 +193,14 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font: $heading;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font: $tagline;
 
   @include mobile {
     margin: 3px 0;
@@ -213,8 +210,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  font: $nav;
 
   @include mobile {
     float: none;
